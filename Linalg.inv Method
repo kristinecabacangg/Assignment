@@ -1,0 +1,24 @@
+Number1:
+import numpy as np
+
+k = np.array([[1, 2], [3, 4]])
+
+# Compute the inverse
+inverse_k = np.linalg.inv(k)
+print("Inverse of the matrix:\n", inverse_k)
+
+Number2:
+import numpy as np
+
+k = np.array([[20, 10], [30, 40]])
+
+inverse_k = np.linalg.inv(k)
+print("Inverse of the matrix:\n", inverse_k)
+
+Number3:
+import numpy as np
+
+k = np.array([[5, 10], [2, 6]])
+
+inverse_k = np.linalg.inv(k)
+print("Inverse of the matrix:\n", inverse_k)
