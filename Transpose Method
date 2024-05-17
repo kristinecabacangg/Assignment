@@ -1,0 +1,27 @@
+Number1:
+import numpy as np
+
+originalArray = np.array([[5, 6], [7, 8]])
+transposedArray = np.transpose(originalArray)
+print("Transposed Array:\n", transposedArray)
+
+Number2:
+import numpy as np
+
+originalArray = np.array([[11, 9], [3, 1], [10, 12]])
+transposedArray = np.transpose(originalArray)
+print("Transposed Array:\n", transposedArray)
+
+Number3:
+import numpy as np
+
+originalArray = np.array([[[0, 1], [2, 3]], [[4, 5], [6, 7]]])
+
+print("When axes are (2, 0, 1):")
+transposedArray1 = np.transpose(originalArray, (2, 0, 1))
+print(transposedArray1)
+
+print("\nWhen axes are (0, 2, 1):")
+transposedArray2 = np.transpose(originalArray, (0, 2, 1))
+print(transposedArray2)
+
