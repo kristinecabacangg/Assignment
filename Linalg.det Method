@@ -1,0 +1,21 @@
+Number1:
+import numpy as np
+
+matrix_2x2 = np.array([[2, 4], [8, 4]])
+determinant_2x2 = np.linalg.det(matrix_2x2)
+print("Determinant of the 2x2 matrix:", determinant_2x2)
+
+Number2:
+import numpy as np
+
+matrix_wow = np.array([[5, 2, 3], [3, 4, 6], [3, 9, 1]])
+determinant_wow = np.linalg.det(matrix_wow)
+print("Determinant of the wow matrix:", determinant_wow)
+
+Number3:
+import numpy as np
+
+matrix_this = np.array([[11, 33], [22, 12]])
+determinant_this = np.linalg.det(matrix_this)
+print("Determinant of the this matrix:", determinant_this)
+
